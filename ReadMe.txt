@@ -4,6 +4,9 @@ particles produced a Bozon de Huggs particle.
 
 To make the prediction, you should run 'run.py'. You czn modify the hyper parameter and the choice of the model.
 
+!!! You should add the folder data at the same level as run.py so that you can extract the training and testing sets. !!!
+
+
 run.py : This is the main file to extract the data, compute our model and write the prediction in a 'test.csv' file. There are 11 different models: 6 basics (the one asked in part 1) and 5 advanced
 
 get_data.py : In this file we put all the functions for the preprocessiong. In total we have 5 different methods for preprocessiong that we will use.
